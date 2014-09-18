@@ -14,7 +14,7 @@
  *  limitations under the License.
  *
  */
-package per.jacobsLin.seed;
+package per.jacobs.seed;
 
 import java.io.File;
 import java.text.SimpleDateFormat;

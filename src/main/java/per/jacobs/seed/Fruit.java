@@ -14,7 +14,7 @@
  *  limitations under the License.
  *
  */
-package per.jacobsLin.seed;
+package per.jacobs.seed;
 
 import java.awt.AWTException;
 import java.awt.Robot;
@@ -50,8 +50,8 @@ import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium;
  * BrowserEmulator is based on Selenium2 and adds some enhancements
  */
 public class Fruit {
-	RemoteWebDriver browserCore;
-	WebDriverBackedSelenium browser;
+	RemoteWebDriver driver;
+	WebDriverBackedSelenium selenium;
 	ChromeDriverService chromeServer;
 	JavascriptExecutor javaScriptExecutor;
 	
@@ -61,14 +61,14 @@ public class Fruit {
 	private static Logger logger = LogManager.getLogger(Fruit.class.getName());
 	public Fruit() {
 		setupBrowserCoreType(FruitSettings.BROWSER_CORE_TYPE);
-		browser = new WebDriverBackedSelenium(browserCore, "http://www.163.com/");
-		javaScriptExecutor = (JavascriptExecutor) browserCore;
-		logger.info("Started BrowserEmulator");
+		selenium = new WebDriverBackedSelenium(driver, "http://www.163.com/");
+		javaScriptExecutor = (JavascriptExecutor) driver;
+		logger.info("Starting Fruit");
 	}
 
 	private void setupBrowserCoreType(int type) {
 		if (type == 1) {
-			browserCore = new FirefoxDriver();
+			driver = new FirefoxDriver();
 			logger.info("Using Firefox");
 			return;
 		}
@@ -87,7 +87,7 @@ public class Fruit {
 			options.addArguments("start-maximized");
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-			browserCore = new RemoteWebDriver(chromeServer.getUrl(), capabilities);
+			driver = new RemoteWebDriver(chromeServer.getUrl(), capabilities);
 			logger.info("Using Chrome");
 			return;
 		}
@@ -95,7 +95,7 @@ public class Fruit {
 			System.setProperty("webdriver.ie.driver", FruitSettings.IE_DRIVER_PATH);
 			DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
 			capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-			browserCore = new InternetExplorerDriver(capabilities);
+			driver = new InternetExplorerDriver(capabilities);
 			logger.info("Using IE");
 			return;
 		}
@@ -108,7 +108,7 @@ public class Fruit {
 	 * @return a WebDriver instance
 	 */
 	public RemoteWebDriver getBrowserCore() {
-		return browserCore;
+		return driver;
 	}
 
 	/**
@@ -116,7 +116,7 @@ public class Fruit {
 	 * @return a WebDriverBackedSelenium instance
 	 */
 	public WebDriverBackedSelenium getBrowser() {
-		return browser;
+		return selenium;
 	}
 	
 	/**
@@ -135,8 +135,8 @@ public class Fruit {
 	public void open(String url) {
 		pause(STEP_INTERVAL);
 		try {
-			browser.open(url);
-			browser.waitForPageToLoad(String.valueOf(TIMEOUT));
+			selenium.open(url);
+			selenium.waitForPageToLoad(String.valueOf(TIMEOUT));
 		} catch (Exception e) {
 			e.printStackTrace();
 			handleFailure("Failed to open url " + url);
@@ -153,9 +153,9 @@ public class Fruit {
 	public void open(String url,int timeout) {
 		pause(STEP_INTERVAL);
 		try {
-			browser.setTimeout(String.valueOf(timeout));
-			browser.open(url);
-			browser.waitForPageToLoad(String.valueOf(TIMEOUT)); 
+			selenium.setTimeout(String.valueOf(timeout));
+			selenium.open(url);
+			selenium.waitForPageToLoad(String.valueOf(TIMEOUT)); 
 		} catch (Exception e) {
 			e.printStackTrace();
 			handleFailure("Failed to open url " + url);
@@ -168,7 +168,7 @@ public class Fruit {
 	 */
 	public void quit() {
 		pause(STEP_INTERVAL);
-		browserCore.quit();
+		driver.quit();
 		if (FruitSettings.BROWSER_CORE_TYPE == 2) {
 			chromeServer.stop();
 		}
@@ -198,7 +198,6 @@ public class Fruit {
 	 * @param timeout
 	 * 			timeout = the max wait time
 	 */
-	 	
 	public void click(String xpath, int timeout) {
 		pause(STEP_INTERVAL);
 		expectElementExistOrNot(true, xpath, timeout);
@@ -220,7 +219,7 @@ public class Fruit {
 	 */
 	private void clickTheClickable(String xpath, long startTime, int timeout) throws Exception {
 		try {
-			browserCore.findElementByXPath(xpath).click();
+			driver.findElementByXPath(xpath).click();
 		} catch (Exception e) {
 			if (System.currentTimeMillis() - startTime > timeout) {
 				logger.info("Element " + xpath + " is unclickable");
@@ -245,7 +244,7 @@ public class Fruit {
 		pause(STEP_INTERVAL);
 		expectElementExistOrNot(true, xpath, TIMEOUT);
 
-		WebElement we = browserCore.findElement(By.xpath(xpath));
+		WebElement we = driver.findElement(By.xpath(xpath));
 		try {
 			we.clear();
 		} catch (Exception e) {
@@ -285,9 +284,9 @@ public class Fruit {
 			rb.mouseMove(0, 0);
 			
 			// Then hover
-			WebElement we = browserCore.findElement(By.xpath(xpath));
+			WebElement we = driver.findElement(By.xpath(xpath));
 			try {
-				Actions builder = new Actions(browserCore);
+				Actions builder = new Actions(driver);
 				builder.moveToElement(we).build().perform();
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -311,7 +310,7 @@ public class Fruit {
 	 */
 	public void selectWindow(String windowTitle) {
 		pause(STEP_INTERVAL);
-		browser.selectWindow(windowTitle);
+		selenium.selectWindow(windowTitle);
 		logger.info("Switched to window " + windowTitle);
 	}
 
@@ -322,7 +321,7 @@ public class Fruit {
 	 */
 	public void enterFrame(String xpath) {
 		pause(STEP_INTERVAL);
-		browserCore.switchTo().frame(browserCore.findElementByXPath(xpath));
+		driver.switchTo().frame(driver.findElementByXPath(xpath));
 		logger.info("Entered iframe " + xpath);
 	}
 
@@ -331,7 +330,7 @@ public class Fruit {
 	 */
 	public void leaveFrame() {
 		pause(STEP_INTERVAL);
-		browserCore.switchTo().defaultContent();
+		driver.switchTo().defaultContent();
 		logger.info("Left the iframe");
 	}
 	
@@ -340,7 +339,7 @@ public class Fruit {
 	 */
 	public void refresh() {
 		pause(STEP_INTERVAL);
-		browserCore.navigate().refresh();
+		driver.navigate().refresh();
 		logger.info("Refreshed");
 	}
 	
@@ -442,7 +441,7 @@ public class Fruit {
 	 */
 	public boolean isTextPresent(String text, int time) {
 		pause(time);
-		boolean isPresent = browser.isTextPresent(text);
+		boolean isPresent = selenium.isTextPresent(text);
 		if (isPresent) {
 			logger.info("Found text " + text);
 			return true;
@@ -465,7 +464,7 @@ public class Fruit {
 	 */
 	public boolean isElementPresent(String xpath, int time) {
 		pause(time);
-		boolean isPresent = browser.isElementPresent(xpath) && browserCore.findElementByXPath(xpath).isDisplayed();
+		boolean isPresent = selenium.isElementPresent(xpath) && driver.findElementByXPath(xpath).isDisplayed();
 		if (isPresent) {
 			logger.info("Found element " + xpath);
 			return true;
@@ -505,7 +504,7 @@ public class Fruit {
 	public String getTitle() {
 		pause(STEP_INTERVAL);
 		try {
-			return browserCore.getTitle();
+			return driver.getTitle();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -518,8 +517,8 @@ public class Fruit {
 	 */
 	public void close() {
 		logger.info("close the current window, named " + getTitle());
-		browser.close();
-		browser.selectWindow(null);
+		selenium.close();
+		selenium.selectWindow(null);
 	}
 	/**
 	 * moveToView
@@ -531,7 +530,7 @@ public class Fruit {
 	public void moveToView(String xpath) {
 		pause(STEP_INTERVAL);
 		isElementPresent(xpath, TIMEOUT);
-		WebElement we = browserCore.findElement(By.xpath(xpath));
+		WebElement we = driver.findElement(By.xpath(xpath));
 		try{
 			getJavaScriptExecutor().executeScript("arguments[0].scrollIntoView();", we);
 			logger.info("move to the view that xpath is " + xpath);
