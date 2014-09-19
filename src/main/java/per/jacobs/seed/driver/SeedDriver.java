@@ -6,18 +6,25 @@ import java.awt.Robot;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+import com.thoughtworks.selenium.Wait;
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium;
 
-public class SeedDriver implements SeedDrivable{
-	private RemoteWebDriver driver;
-	private WebDriverBackedSelenium selenium;
-	private JavascriptExecutor javaScriptExecutor;
-	private int TIMEOUT;
+abstract public class SeedDriver implements SeedDrivable{
+	protected RemoteWebDriver driver;
+	protected WebDriverBackedSelenium selenium;
+	protected JavascriptExecutor javascriptExecutor;
+	protected int TIMEOUT;
+	protected String baseUrl;
 	
-	public JavascriptExecutor getJavaScriptExecutor() {
-		return javaScriptExecutor;
+	
+	protected abstract void init();
+	
+	
+	public JavascriptExecutor getJavascriptExecutor() {
+		return javascriptExecutor;
 	}
 
 	public void open(String url) {
@@ -36,21 +43,69 @@ public class SeedDriver implements SeedDrivable{
 	}
 
 	public void click(String xpath) {
-		// TODO Auto-generated method stub
-		
+		expectElementExistOrNot(true, xpath, TIMEOUT);
+		try {
+			clickTheClickable(xpath, System.currentTimeMillis(), 2500);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	public void click(String xpath, int timeout) {
-		// TODO Auto-generated method stub
-		
+		expectElementExistOrNot(true, xpath, timeout);
+		try {
+			clickTheClickable(xpath, System.currentTimeMillis(), 2500);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
-
+	
+	private void clickTheClickable(String xpath, long startTime, int timeout) throws Exception {
+		try {
+			driver.findElementByXPath(xpath).click();
+		} catch (Exception e) {
+			if (System.currentTimeMillis() - startTime > timeout) {
+				throw new Exception(e);
+			} else {
+				Thread.sleep(500);
+				clickTheClickable(xpath, startTime, timeout);
+			}
+		}
+	}
+	
 	public void type(String xpath, String text) {
-		// TODO Auto-generated method stub
-		
+		expectElementExistOrNot(true, xpath, TIMEOUT);
+		WebElement we = driver.findElement(By.xpath(xpath));
+		try {
+			we.clear();
+		} catch (Exception e) {
+		}
+		try {
+			we.sendKeys(text);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	public void mouseOver(String xpath) {
+		expectElementExistOrNot(true, xpath, TIMEOUT);
+		// First make mouse out of browser
+		Robot rb = null;
+		try {
+			rb = new Robot();
+		} catch (AWTException e) {
+			e.printStackTrace();
+		}
+		rb.mouseMove(0, 0);
+
+		// Then hover
+		WebElement we = driver.findElement(By.xpath(xpath));
+		try {
+			Actions builder = new Actions(driver);
+			builder.moveToElement(we).build().perform();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	public void selectWindow(String windowTitle) {
@@ -66,8 +121,7 @@ public class SeedDriver implements SeedDrivable{
 	}
 
 	public void refresh() {
-		// TODO Auto-generated method stub
-		
+		driver.navigate().refresh();
 	}
 
 	public void pressKeyboard(int keyCode) {
@@ -82,16 +136,45 @@ public class SeedDriver implements SeedDrivable{
 		rb.keyRelease(keyCode);	// release key
 	}
 
-	public void expectTextExistOrNot(boolean expectExist, String text,
+	public void expectTextExistOrNot(boolean expectExist, final String text,
 			int timeout) {
-		// TODO Auto-generated method stub
-		
+		if (expectExist) {
+			try {
+				new Wait() {
+					public boolean until() {
+						return isTextPresent(text, -1);
+					}
+				}.wait("Failed to find text " + text, timeout);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		} else {
+			if (isTextPresent(text, timeout)) {
+			} else {
+			}
+		}
 	}
 
-	public void expectElementExistOrNot(boolean expectExist, String xpath,
+	public void expectElementExistOrNot(boolean expectExist, final String xpath,
 			int timeout) {
-		// TODO Auto-generated method stub
-		
+		if (expectExist) {
+			try {
+				new Wait() {
+					public boolean until() {
+						return isElementPresent(xpath, -1);
+					}
+				}.wait("Failed to find element " + xpath, timeout);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			//to-do
+		} else {
+			if (isElementPresent(xpath, timeout)) {
+				//to-do
+			} else {
+				//to-do
+			}
+		}
 	}
 
 	public boolean isTextPresent(String text, int time) {
@@ -141,7 +224,7 @@ public class SeedDriver implements SeedDrivable{
 		isElementPresent(xpath, TIMEOUT);
 		WebElement we = driver.findElement(By.xpath(xpath));
 		try{
-			getJavaScriptExecutor().executeScript("arguments[0].scrollIntoView();", we);
+			getJavascriptExecutor().executeScript("arguments[0].scrollIntoView();", we);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
