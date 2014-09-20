@@ -27,8 +27,6 @@ public class FruitSettings {
 
 	public static Properties prop = getProperties();
 
-	public static final int BROWSER_CORE_TYPE = Integer.parseInt(prop.getProperty("BrowserCoreType", "2"));
-	
 	public static final String CHROME_DRIVER_PATH = prop.getProperty(getPropDriverPath(), "res/chromedriver_for_win.exe");
 	
 	public static final String IE_DRIVER_PATH = prop.getProperty("IEDriverPath", "res/iedriver_32.exe");
