@@ -1,55 +1,492 @@
-2014-09-28 17:16:56 [main]-[INFO] Started ChomeDriverService
-2014-09-28 17:17:00 [main]-[INFO] Using chrome...
-2014-09-28 17:17:01 [main]-[INFO] Starting Fruit
-2014-09-28 17:17:01 [main]-[INFO] Pause 500 ms
-2014-09-28 17:17:05 [main]-[INFO] Opened url study.163.com
-2014-09-28 17:18:02 [main]-[INFO] Started ChomeDriverService
-2014-09-28 17:18:05 [main]-[INFO] Using chrome...
-2014-09-28 17:18:06 [main]-[INFO] Starting Fruit
-2014-09-28 17:18:06 [main]-[INFO] Pause 500 ms
-2014-09-28 17:18:09 [main]-[INFO] Opened url http://study.163.com
-2014-09-28 17:45:53 [Forwarding newSession on session null to remote]-[INFO] I/O exception (java.net.SocketException) caught when processing request: Software caused connection abort: recv failed
-2014-09-28 17:45:53 [Forwarding newSession on session null to remote]-[INFO] Retrying request
-2014-09-28 17:45:53 [main]-[INFO] Using InternetExplorer...
-2014-09-28 17:45:53 [main]-[INFO] Starting Fruit
-2014-09-28 17:45:53 [main]-[INFO] Pause 500 ms
-2014-09-28 17:45:59 [main]-[INFO] Opened url http://study.163.com
-2014-09-28 18:37:51 [Forwarding newSession on session null to remote]-[INFO] I/O exception (java.net.SocketException) caught when processing request: Software caused connection abort: recv failed
-2014-09-28 18:37:51 [Forwarding newSession on session null to remote]-[INFO] Retrying request
-2014-09-28 18:37:51 [main]-[INFO] Using InternetExplorer...
-2014-09-28 18:37:51 [main]-[INFO] Starting Fruit
-2014-09-28 18:37:52 [main]-[INFO] Pause 500 ms
-2014-09-28 18:38:01 [main]-[INFO] Opened url http://study.163.com
-2014-09-28 18:43:07 [Forwarding newSession on session null to remote]-[INFO] I/O exception (java.net.SocketException) caught when processing request: Software caused connection abort: recv failed
-2014-09-28 18:43:07 [Forwarding newSession on session null to remote]-[INFO] Retrying request
-2014-09-28 18:43:07 [main]-[INFO] Using InternetExplorer...
-2014-09-28 18:43:07 [main]-[INFO] Starting Fruit
-2014-09-28 18:43:08 [main]-[INFO] Pause 500 ms
-2014-09-28 18:43:12 [main]-[INFO] Opened url http://study.163.com
-2014-09-28 19:00:05 [main]-[INFO] Using InternetExplorer...
-2014-09-28 19:00:05 [main]-[INFO] Starting Fruit
-2014-09-28 19:00:06 [main]-[INFO] Pause 500 ms
-2014-09-28 19:00:11 [main]-[INFO] Opened url http://study.163.com
-2014-09-28 19:00:28 [main]-[INFO] Started ChomeDriverService
-2014-09-28 19:00:33 [main]-[INFO] Using chrome...
-2014-09-28 19:00:33 [main]-[INFO] Starting Fruit
-2014-09-28 19:00:33 [main]-[INFO] Pause 500 ms
-2014-09-28 19:00:36 [main]-[INFO] Opened url http://study.163.com
-2014-09-28 19:00:50 [main]-[INFO] Using InternetExplorer...
-2014-09-28 19:00:51 [main]-[INFO] Starting Fruit
-2014-09-28 19:00:51 [main]-[INFO] Pause 500 ms
-2014-09-28 19:00:54 [main]-[INFO] Opened url http://study.163.com
-2014-09-28 19:32:32 [main]-[INFO] Started ChomeDriverService
-2014-09-28 19:32:35 [main]-[INFO] Using chrome...
-2014-09-28 19:32:35 [main]-[INFO] Starting Fruit
-2014-09-28 19:32:36 [main]-[INFO] Pause 500 ms
-2014-09-28 19:32:39 [main]-[INFO] Opened url http://study.163.com
-2014-09-28 19:33:02 [main]-[INFO] Started ChomeDriverService
-2014-09-28 19:33:05 [main]-[INFO] Using chrome...
-2014-09-28 19:33:06 [main]-[INFO] Starting Fruit
-2014-09-28 19:33:06 [main]-[INFO] Pause 500 ms
-2014-09-28 19:33:09 [main]-[INFO] Opened url http://study.163.com
-2014-09-28 19:34:08 [main]-[INFO] Using InternetExplorer...
-2014-09-28 19:34:08 [main]-[INFO] Starting Fruit
-2014-09-28 19:34:08 [main]-[INFO] Pause 500 ms
-2014-09-28 19:34:16 [main]-[INFO] Opened url http://study.163.com
+2014-09-30 09:53:33 [main]-[INFO] Using InternetExplorer...
+2014-09-30 09:53:33 [main]-[INFO] Starting Fruit
+2014-09-30 09:53:33 [main]-[INFO] Pause 500 ms
+2014-09-30 09:53:57 [main]-[INFO] Opened url http://study.163.com
+2014-09-30 09:53:58 [main]-[INFO] Pause 500 ms
+2014-09-30 09:53:58 [main]-[INFO] Not found element//hadf
+2014-09-30 09:53:59 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:00 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:01 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:01 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:02 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:03 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:04 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:05 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:05 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:06 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:07 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:08 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:09 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:10 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:10 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:11 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:12 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:13 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:14 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:14 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:15 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:16 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:17 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:18 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:19 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:19 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:20 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:21 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:22 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:23 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:23 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:24 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:25 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:26 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:27 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:28 [main]-[INFO] Not found element//hadf
+2014-09-30 09:54:30 [main]-[ERROR] Failed to find element //hadf >> capture screenshot at screenshot\20140930-095428.png
+2014-09-30 10:00:21 [main]-[INFO] Using InternetExplorer...
+2014-09-30 10:00:21 [main]-[INFO] Starting Fruit
+2014-09-30 10:00:22 [main]-[INFO] Pause 500 ms
+2014-09-30 10:00:32 [main]-[INFO] Opened url http://study.163.com
+2014-09-30 10:00:32 [main]-[INFO] Pause 500 ms
+2014-09-30 10:00:32 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:33 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:34 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:34 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:35 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:35 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:36 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:36 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:37 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:37 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:38 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:38 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:39 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:39 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:40 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:40 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:41 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:41 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:42 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:42 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:43 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:43 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:44 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:44 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:45 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:45 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:46 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:46 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:47 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:47 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:48 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:48 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:49 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:49 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:50 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:50 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:51 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:51 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:52 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:53 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:53 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:54 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:54 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:55 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:55 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:56 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:56 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:57 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:57 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:58 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:58 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:59 [main]-[INFO] Not found element//hadf
+2014-09-30 10:00:59 [main]-[INFO] Not found element//hadf
+2014-09-30 10:01:00 [main]-[INFO] Not found element//hadf
+2014-09-30 10:01:00 [main]-[INFO] Not found element//hadf
+2014-09-30 10:01:01 [main]-[INFO] Not found element//hadf
+2014-09-30 10:01:01 [main]-[INFO] Not found element//hadf
+2014-09-30 10:01:02 [main]-[INFO] Not found element//hadf
+2014-09-30 10:01:02 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:01 [main]-[INFO] Using InternetExplorer...
+2014-09-30 10:02:01 [main]-[INFO] Starting Fruit
+2014-09-30 10:02:02 [main]-[INFO] Pause 500 ms
+2014-09-30 10:02:07 [main]-[INFO] Opened url http://study.163.com
+2014-09-30 10:02:08 [main]-[INFO] Pause 500 ms
+2014-09-30 10:02:08 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:09 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:10 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:11 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:11 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:12 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:13 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:14 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:15 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:16 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:16 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:17 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:18 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:19 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:20 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:21 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:21 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:22 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:23 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:24 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:25 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:26 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:26 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:27 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:28 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:29 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:30 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:31 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:31 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:32 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:33 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:34 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:35 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:36 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:36 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:37 [main]-[INFO] Not found element//hadf
+2014-09-30 10:02:39 [main]-[ERROR] Failed to find element //hadf >> capture screenshot at screenshot\20140930-100238.png
+2014-09-30 10:10:48 [main]-[INFO] Using InternetExplorer...
+2014-09-30 10:10:48 [main]-[INFO] Starting Fruit
+2014-09-30 10:10:48 [main]-[INFO] Pause 500 ms
+2014-09-30 10:10:53 [main]-[INFO] Opened url http://study.163.com
+2014-09-30 10:10:54 [main]-[INFO] Pause 500 ms
+2014-09-30 10:10:54 [main]-[INFO] Not found element//hadf
+2014-09-30 10:10:55 [main]-[INFO] Not found element//hadf
+2014-09-30 10:10:56 [main]-[INFO] Not found element//hadf
+2014-09-30 10:10:57 [main]-[INFO] Not found element//hadf
+2014-09-30 10:10:58 [main]-[INFO] Not found element//hadf
+2014-09-30 10:10:59 [main]-[INFO] Not found element//hadf
+2014-09-30 10:10:59 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:00 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:01 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:02 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:03 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:04 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:05 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:05 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:06 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:07 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:08 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:09 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:10 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:11 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:11 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:12 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:13 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:14 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:15 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:16 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:17 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:18 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:19 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:19 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:20 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:21 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:22 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:23 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:24 [main]-[INFO] Not found element//hadf
+2014-09-30 10:11:26 [main]-[ERROR] Failed to find element //hadf >> capture screenshot at screenshot\20140930-101124.png
+2014-09-30 10:20:24 [main]-[INFO] Using InternetExplorer...
+2014-09-30 10:20:24 [main]-[INFO] Starting Fruit
+2014-09-30 10:20:25 [main]-[INFO] Pause 500 ms
+2014-09-30 10:20:30 [main]-[INFO] Opened url http://study.163.com
+2014-09-30 10:20:30 [main]-[INFO] Pause 500 ms
+2014-09-30 10:20:31 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:31 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:32 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:33 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:34 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:35 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:36 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:37 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:37 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:38 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:39 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:40 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:41 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:42 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:43 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:43 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:44 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:45 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:46 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:47 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:48 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:49 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:49 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:50 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:51 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:52 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:53 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:54 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:55 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:55 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:56 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:57 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:58 [main]-[INFO] Not found element//hadf
+2014-09-30 10:20:59 [main]-[INFO] Not found element//hadf
+2014-09-30 10:21:00 [main]-[INFO] Not found element//hadf
+2014-09-30 10:21:00 [main]-[INFO] Not found element//hadf
+2014-09-30 10:21:02 [main]-[ERROR] Failed to find element //hadf >> capture screenshot at screenshot\20140930-102101.png
+2014-09-30 10:22:14 [main]-[INFO] Started ChomeDriverService
+2014-09-30 10:22:18 [main]-[INFO] Using chrome...
+2014-09-30 10:22:19 [main]-[INFO] Starting Fruit
+2014-09-30 10:22:19 [main]-[INFO] Pause 500 ms
+2014-09-30 10:22:25 [main]-[INFO] Opened url http://study.163.com
+2014-09-30 10:22:26 [main]-[INFO] Pause 500 ms
+2014-09-30 10:22:26 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:26 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:27 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:27 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:28 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:28 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:29 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:30 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:30 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:31 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:31 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:32 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:32 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:33 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:33 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:34 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:34 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:35 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:35 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:36 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:36 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:37 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:37 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:38 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:38 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:39 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:39 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:40 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:41 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:41 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:42 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:42 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:43 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:43 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:44 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:44 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:45 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:45 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:46 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:46 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:47 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:47 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:48 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:48 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:49 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:49 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:50 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:50 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:51 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:51 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:52 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:52 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:53 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:53 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:54 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:54 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:55 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:56 [main]-[INFO] Not found element//hadf
+2014-09-30 10:22:57 [main]-[ERROR] Failed to find element //hadf >> capture screenshot at screenshot\20140930-102256.png
+2014-09-30 10:24:16 [TestNG]-[INFO] Started ChomeDriverService
+2014-09-30 10:24:21 [TestNG]-[INFO] Using chrome...
+2014-09-30 10:24:21 [TestNG]-[INFO] Starting Fruit
+2014-09-30 10:24:22 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 10:24:39 [TestNG]-[INFO] Opened url http://study.163.com
+2014-09-30 10:24:40 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 10:24:40 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:41 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:41 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:42 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:42 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:43 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:43 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:44 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:44 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:45 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:46 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:48 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:50 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:53 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:55 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:24:58 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:25:00 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:25:03 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:25:05 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:25:08 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:25:10 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:25:13 [TestNG]-[ERROR] Failed to find element //hadf >> capture screenshot at Failed to screenshot
+2014-09-30 10:35:36 [TestNG]-[INFO] Using InternetExplorer...
+2014-09-30 10:35:36 [TestNG]-[INFO] Starting Fruit
+2014-09-30 10:35:37 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 10:36:02 [TestNG]-[INFO] Started ChomeDriverService
+2014-09-30 10:36:05 [TestNG]-[INFO] Using chrome...
+2014-09-30 10:36:05 [TestNG]-[INFO] Starting Fruit
+2014-09-30 10:36:05 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 10:36:11 [TestNG]-[INFO] Opened url http://study.163.com
+2014-09-30 10:36:11 [TestNG]-[ERROR] Failed to open url http://study.163.com >> capture screenshot at Failed to screenshot
+2014-09-30 10:36:11 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 10:36:15 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:17 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:20 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:22 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:25 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:27 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:30 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:32 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:35 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:38 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:40 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:43 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 10:36:46 [TestNG]-[ERROR] Failed to find element //hadf >> capture screenshot at Failed to screenshot
+2014-09-30 12:13:51 [TestNG]-[INFO] Started ChomeDriverService
+2014-09-30 12:13:53 [TestNG]-[INFO] Using chrome...
+2014-09-30 12:13:54 [TestNG]-[INFO] Starting Fruit
+2014-09-30 12:13:55 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 12:13:59 [TestNG]-[INFO] Opened url http://study.163.com
+2014-09-30 12:14:00 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 12:14:00 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:14:01 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:14:01 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:14:02 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:14:02 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:14:03 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:14:03 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:14:04 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:14:04 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:14:05 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:21 [TestNG]-[INFO] Started ChomeDriverService
+2014-09-30 12:16:25 [TestNG]-[INFO] Using chrome...
+2014-09-30 12:16:25 [TestNG]-[INFO] Starting Fruit
+2014-09-30 12:16:26 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 12:16:32 [TestNG]-[INFO] Using InternetExplorer...
+2014-09-30 12:16:32 [TestNG]-[INFO] Starting Fruit
+2014-09-30 12:16:32 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 12:16:34 [TestNG]-[INFO] Opened url http://study.163.com
+2014-09-30 12:16:35 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 12:16:35 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:35 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:36 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:36 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:37 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:37 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:38 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:38 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:39 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:40 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:40 [TestNG]-[INFO] Opened url http://study.163.com
+2014-09-30 12:16:40 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:40 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 12:16:41 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:41 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:41 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:42 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:42 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:42 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:43 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:43 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:43 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:44 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:44 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:44 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:45 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:45 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:45 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:46 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:46 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:46 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:47 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:47 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:47 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:48 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:48 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:48 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:49 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:49 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:49 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:50 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:50 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:51 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:51 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:51 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:51 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:52 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:52 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:52 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:53 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:53 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:53 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:53 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:54 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:54 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:54 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:54 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:55 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:56 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 12:16:56 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 13:54:06 [main]-[INFO] Started ChomeDriverService
+2014-09-30 13:54:11 [main]-[INFO] Using chrome...
+2014-09-30 13:54:12 [main]-[INFO] Starting Fruit
+2014-09-30 13:54:12 [main]-[INFO] Pause 500 ms
+2014-09-30 13:54:31 [main]-[INFO] Using InternetExplorer...
+2014-09-30 13:54:31 [main]-[INFO] Starting Fruit
+2014-09-30 13:54:32 [main]-[INFO] Pause 500 ms
+2014-09-30 13:54:36 [main]-[INFO] Opened url http://study.163.com
+2014-09-30 13:54:37 [main]-[INFO] Pause 500 ms
+2014-09-30 13:54:37 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:37 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:38 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:38 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:39 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:39 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:40 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:40 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:41 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:41 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:42 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:42 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:43 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:43 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:44 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:44 [main]-[INFO] Not found element//hadf
+2014-09-30 13:54:45 [main]-[INFO] Not found element//hadf
+2014-09-30 14:03:10 [TestNG]-[INFO] Started ChomeDriverService
+2014-09-30 14:03:13 [TestNG]-[INFO] Using chrome...
+2014-09-30 14:03:13 [TestNG]-[INFO] Starting Fruit
+2014-09-30 14:03:14 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 14:03:16 [TestNG]-[INFO] Using InternetExplorer...
+2014-09-30 14:03:16 [TestNG]-[INFO] Starting Fruit
+2014-09-30 14:03:16 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 14:03:19 [TestNG]-[INFO] Opened url http://study.163.com
+2014-09-30 14:03:20 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 14:03:20 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:20 [TestNG]-[INFO] Opened url http://study.163.com
+2014-09-30 14:03:21 [TestNG]-[INFO] Pause 500 ms
+2014-09-30 14:03:21 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:21 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:21 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:22 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:22 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:22 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:23 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:23 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:23 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:24 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:24 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:24 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:25 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:25 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:25 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:26 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:26 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:27 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:27 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:27 [TestNG]-[INFO] Not found element//hadf
+2014-09-30 14:03:28 [TestNG]-[INFO] Not found element//hadf

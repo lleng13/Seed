@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" verbose="10" name="Failed suite [云课堂UI自动化用例 - 并发部分]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="seed测试(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="per.jacobs.seed.test.SeedTest">
+        <methods>
+          <include name="testFruit" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- per.jacobs.seed.test.SeedTest -->
+    </classes>
+  </test> <!-- seed测试(failed) -->
+</suite> <!-- Failed suite [云课堂UI自动化用例 - 并发部分] -->

@@ -1,0 +1,55 @@
+2014-09-28 17:16:56 [main]-[INFO] Started ChomeDriverService
+2014-09-28 17:17:00 [main]-[INFO] Using chrome...
+2014-09-28 17:17:01 [main]-[INFO] Starting Fruit
+2014-09-28 17:17:01 [main]-[INFO] Pause 500 ms
+2014-09-28 17:17:05 [main]-[INFO] Opened url study.163.com
+2014-09-28 17:18:02 [main]-[INFO] Started ChomeDriverService
+2014-09-28 17:18:05 [main]-[INFO] Using chrome...
+2014-09-28 17:18:06 [main]-[INFO] Starting Fruit
+2014-09-28 17:18:06 [main]-[INFO] Pause 500 ms
+2014-09-28 17:18:09 [main]-[INFO] Opened url http://study.163.com
+2014-09-28 17:45:53 [Forwarding newSession on session null to remote]-[INFO] I/O exception (java.net.SocketException) caught when processing request: Software caused connection abort: recv failed
+2014-09-28 17:45:53 [Forwarding newSession on session null to remote]-[INFO] Retrying request
+2014-09-28 17:45:53 [main]-[INFO] Using InternetExplorer...
+2014-09-28 17:45:53 [main]-[INFO] Starting Fruit
+2014-09-28 17:45:53 [main]-[INFO] Pause 500 ms
+2014-09-28 17:45:59 [main]-[INFO] Opened url http://study.163.com
+2014-09-28 18:37:51 [Forwarding newSession on session null to remote]-[INFO] I/O exception (java.net.SocketException) caught when processing request: Software caused connection abort: recv failed
+2014-09-28 18:37:51 [Forwarding newSession on session null to remote]-[INFO] Retrying request
+2014-09-28 18:37:51 [main]-[INFO] Using InternetExplorer...
+2014-09-28 18:37:51 [main]-[INFO] Starting Fruit
+2014-09-28 18:37:52 [main]-[INFO] Pause 500 ms
+2014-09-28 18:38:01 [main]-[INFO] Opened url http://study.163.com
+2014-09-28 18:43:07 [Forwarding newSession on session null to remote]-[INFO] I/O exception (java.net.SocketException) caught when processing request: Software caused connection abort: recv failed
+2014-09-28 18:43:07 [Forwarding newSession on session null to remote]-[INFO] Retrying request
+2014-09-28 18:43:07 [main]-[INFO] Using InternetExplorer...
+2014-09-28 18:43:07 [main]-[INFO] Starting Fruit
+2014-09-28 18:43:08 [main]-[INFO] Pause 500 ms
+2014-09-28 18:43:12 [main]-[INFO] Opened url http://study.163.com
+2014-09-28 19:00:05 [main]-[INFO] Using InternetExplorer...
+2014-09-28 19:00:05 [main]-[INFO] Starting Fruit
+2014-09-28 19:00:06 [main]-[INFO] Pause 500 ms
+2014-09-28 19:00:11 [main]-[INFO] Opened url http://study.163.com
+2014-09-28 19:00:28 [main]-[INFO] Started ChomeDriverService
+2014-09-28 19:00:33 [main]-[INFO] Using chrome...
+2014-09-28 19:00:33 [main]-[INFO] Starting Fruit
+2014-09-28 19:00:33 [main]-[INFO] Pause 500 ms
+2014-09-28 19:00:36 [main]-[INFO] Opened url http://study.163.com
+2014-09-28 19:00:50 [main]-[INFO] Using InternetExplorer...
+2014-09-28 19:00:51 [main]-[INFO] Starting Fruit
+2014-09-28 19:00:51 [main]-[INFO] Pause 500 ms
+2014-09-28 19:00:54 [main]-[INFO] Opened url http://study.163.com
+2014-09-28 19:32:32 [main]-[INFO] Started ChomeDriverService
+2014-09-28 19:32:35 [main]-[INFO] Using chrome...
+2014-09-28 19:32:35 [main]-[INFO] Starting Fruit
+2014-09-28 19:32:36 [main]-[INFO] Pause 500 ms
+2014-09-28 19:32:39 [main]-[INFO] Opened url http://study.163.com
+2014-09-28 19:33:02 [main]-[INFO] Started ChomeDriverService
+2014-09-28 19:33:05 [main]-[INFO] Using chrome...
+2014-09-28 19:33:06 [main]-[INFO] Starting Fruit
+2014-09-28 19:33:06 [main]-[INFO] Pause 500 ms
+2014-09-28 19:33:09 [main]-[INFO] Opened url http://study.163.com
+2014-09-28 19:34:08 [main]-[INFO] Using InternetExplorer...
+2014-09-28 19:34:08 [main]-[INFO] Starting Fruit
+2014-09-28 19:34:08 [main]-[INFO] Pause 500 ms
+2014-09-28 19:34:16 [main]-[INFO] Opened url http://study.163.com

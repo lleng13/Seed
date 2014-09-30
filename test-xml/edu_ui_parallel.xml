@@ -1,0 +1,19 @@
+<suite reruntimes="2" thread-count="3" parallel="tests" verbose="10"
+	name="云课堂UI自动化用例 - 并发部分" annotations="JDK" time-out="1800000">
+
+	<test name="seed测试" junit="false" annotations="JDK">
+	    <parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.netease.seed.test.SeedTest" />
+			
+		</classes>
+	</test>
+	<test name="seed测试_ie" junit="false" annotations="JDK">
+	    <parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.netease.seed.test.SeedTest" />
+			
+		</classes>
+	</test>
+	
+</suite>
