@@ -79,7 +79,7 @@ abstract public class SeedDriver implements SeedDrivable{
 	public void quit() {
 		pause(STEP_INTERVAL);
 		driver.quit();
-		logger.info("Quitted BrowserEmulator");
+		logger.info("Quitted browser");
 	}
 
 	public void click(String xpath) {

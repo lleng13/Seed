@@ -47,7 +47,7 @@ public class SeedProxy {
 	private final int TIMEOUT = Integer.parseInt(ProxySettings.TIMEOUT);
 	private final String CHROME_DRIVER_PATH = ProxySettings.CHROME_DRIVER_PATH;
 	private final String IE_DRIVER_PATH = ProxySettings.IE_DRIVER_PATH;
-	private static Logger logger = Logger.getLogger(SeedProxy	.class.getName());
+	private static Logger logger = Logger.getLogger(SeedProxy.class.getName());
 	private final String DEFAULT_BROWSER = ProxySettings.DEFAULT_BROWSER;
 	public SeedProxy(String browserType) {
 		init(browserType);
@@ -66,7 +66,7 @@ public class SeedProxy {
 		prop.setIEPath(IE_DRIVER_PATH);
 		factory.setProp(prop);
 		driver = factory.getDriver(type);
-		logger.info("Starting Fruit");
+		logger.info(this.getClass().getName()+" has been initialized");
 	}
 	
 	public RemoteWebDriver getBrowserCore() {
@@ -151,15 +151,7 @@ public class SeedProxy {
 	}
 	
 	public void pause(int time) {
-		if (time <= 0) {
-			return;
-		}
-		try {
-			Thread.sleep(time);
-			logger.info("Pause " + time + " ms");
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+		driver.pause(time);
 	}
 	
 

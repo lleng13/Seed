@@ -52,10 +52,9 @@ public class SeedChromeDriver extends SeedDriver{
 	@Override
 	public void quit() {
 		pause(STEP_INTERVAL);
+		chromeServer.stop();  //must stop the chrome server first
 		driver.quit();
-		chromeServer.stop();
-		logger.info("Stopped ChomeDriverService");
-		logger.info("Quitted BrowserEmulator");
+		logger.info("Stopped ChomeDriverService and quitted browser");
 	}
 	@Override
 	protected void init() {
