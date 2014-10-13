@@ -42,9 +42,9 @@ public class SeedDriverFactory implements SeedDriverableFactory{
 	public SeedDriver getDriver(String type) {
 		if(type.equalsIgnoreCase("chrome"))
 			driver = new SeedChromeDriver(prop);
-		if(type.equalsIgnoreCase("firefox"))
+		else if(type.equalsIgnoreCase("firefox"))
 			driver = new SeedFirefoxDriver(prop);
-		if(type.equalsIgnoreCase("ie"))
+		else if(type.equalsIgnoreCase("ie"))
 			driver = new SeedInternetExplorerDriver(prop);
 		else
 			driver = new SeedChromeDriver(prop);//–¥¥Ì¡Àtype“≤ «SeedChromeDriver
