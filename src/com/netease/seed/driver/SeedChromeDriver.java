@@ -30,6 +30,7 @@ public class SeedChromeDriver extends SeedDriver{
 	}
 	@Override
 	public void mouseOver(String xpath) {
+		pause(STEP_INTERVAL);
 		Robot rb = null;
 		try {
 			rb = new Robot();

@@ -38,11 +38,11 @@ import com.netease.seed.driverFactory.SeedDriverFactory;
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium;
 
 /**
- * Fruit as a SeedDriver Proxy
+ * SeedProxy as a SeedDriver Proxy
  */
 public class SeedProxy {
 	private SeedDriverFactory factory;
-	private SeedDriver driver;
+	protected SeedDriver driver;
 	private final int STEP_INTERVAL = Integer.parseInt(ProxySettings.STEP_INTERVAL);
 	private final int TIMEOUT = Integer.parseInt(ProxySettings.TIMEOUT);
 	private final String CHROME_DRIVER_PATH = ProxySettings.CHROME_DRIVER_PATH;
